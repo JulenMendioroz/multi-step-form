@@ -1,7 +1,8 @@
 {
   "arrowParens": "always",
   "bracketSpacing": true,
-  "semi": true,
+  "endOfLine": "lf",
+  "jsxSingleQuote": false,
   "printWidth": 100,
-  "jsxSingleQuote": false
+  "semi": false
 }
