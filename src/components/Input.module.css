@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  flex-direction: column;
+
+  margin-block-start: 1.5rem;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  font-size: 14px;
+}
+
+.required {
+  color: red;
+}
+
+.error {
+  margin: 0;
+  color: red;
+  font-weight: 500;
+}
+
+.input {
+  min-width: 320px;
+  margin-block-start: 0.25rem;
+  padding: 0.5rem 0.75rem;
+
+  line-height: 1.5;
+  font-weight: 700 !important;
+}
